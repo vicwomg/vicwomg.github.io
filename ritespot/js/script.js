@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var calendarEl = document.getElementById("calendar");
   var isCalendarPage = window.location.pathname.endsWith("calendar.html");
   calendar = new FullCalendar.Calendar(calendarEl, {
-    googleCalendarApiKey: "AIzaSyCemW94vJWA0aeMsKFqwgF-4QErXim06ms",
+    googleCalendarApiKey: "AIzaSyDBiIqCEf4fzQ_rrtgxePs5llSaYuqWukA",
     initialView: isCalendarPage ? "dayGridMonth" : "dayGridWeek",
     height: "auto",
     views: {
