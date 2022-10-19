@@ -27,6 +27,11 @@ document.addEventListener("DOMContentLoaded", function () {
           "j4uge8u9i76qhb86gvced5p47s@group.calendar.google.com",
       },
     ],
+    headerToolbar: {
+      left: "title",
+      center: "",
+      right: "prev,next",
+    },
   });
 
   calendar.render();
